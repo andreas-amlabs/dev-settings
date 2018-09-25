@@ -1,0 +1,370 @@
+# This is an automatically generated file.
+# Please see <file:/usr/share/doc/menu/README> for information.
+
+# to use your own menu, copy this to ~/.fluxbox/menu, then edit
+# ~/.fluxbox/init and change the session.menuFile path to ~/.fluxbox/menu
+
+[begin] (Fluxbox)
+
+# Automatically generated file. Do not edit (see /usr/share/doc/menu/html/index.html)
+   [exec] (Iceweasel) {iceweasel} </usr/share/pixmaps/iceweasel.xpm>
+   [exec] (Google Chrome) {/opt/google/chrome/google-chrome --process-per-tab} </opt/google/chrome/product_logo_32.xpm>
+   [exec] (Icedove Mail) {icedove} </usr/share/pixmaps/icedove.png>
+   [exec] (Iceowl) {/usr/bin/iceowl} </usr/share/pixmaps/iceowl.xpm>
+   [exec] (Pidgin) {/usr/bin/pidgin} </usr/share/pixmaps/pidgin-menu.xpm>
+   [exec] (KDW Screenshot Tool) {/usr/bin/ksnapshot} <>
+   [exec] (GNOME DevHelp) {/usr/bin/devhelp} <>
+   [exec] (KCalc) {/usr/bin/kcalc} <>
+
+   [submenu] (Applications) {}
+      [submenu] (Accessibility) {}
+         [exec] (KMag) {/usr/bin/kmag} <>
+         [exec] (KMousetool) {/usr/bin/kmousetool} <>
+         [exec] (KMouth) {/usr/bin/kmouth} <>
+         [exec] (KSayIt) {/usr/bin/ksayit} <>
+         [exec] (Xmag) {xmag} <>
+      [end]
+      [submenu] (Data Management) {}
+         [exec] (HSQLDB Database Manager) {/usr/bin/hsqldb-databasemanager} </usr/share/pixmaps/hsqldb.xpm>
+         [exec] (HSQLDB Database Manager (Swing\)) {/usr/bin/hsqldb-databasemanagerswing} </usr/share/pixmaps/hsqldb.xpm>
+         [exec] (HSQLDB Query Tool) {/usr/bin/hsqldb-querytool} </usr/share/pixmaps/hsqldb.xpm>
+         [exec] (HSQLDB Transfer Tool) {/usr/bin/hsqldb-transfer} </usr/share/pixmaps/hsqldb.xpm>
+         [exec] (KAddressbook) {/usr/bin/kaddressbook} <>
+         [exec] (KAlarm) {/usr/bin/kalarm} <>
+         [exec] (Kgpg) {/usr/bin/kgpg} <>
+         [exec] (KitchenSync) {/usr/bin/kitchensync} <>
+         [exec] (KJots) {/usr/bin/kjots} <>
+         [exec] (Kleopatra) {/usr/bin/kleopatra} <>
+         [exec] (KMail/KAB Import Tool) {/usr/bin/kmailcvt} <>
+         [exec] (KNotes) {/usr/bin/knotes} <>
+         [exec] (Kontact) {/usr/bin/kontact} <>
+         [exec] (KOrganizer) {/usr/bin/korganizer} <>
+         [exec] (KWatchGnuPG) {/usr/bin/kwatchgnupg} <>
+         [exec] (OpenOffice.org Base) {/usr/bin/oobase} </usr/share/icons/hicolor/32x32/apps/openofficeorg3-base.xpm>
+      [end]
+      [submenu] (Editors) {}
+         [exec] (e16keyedit) {e16keyedit} <>
+         [exec] (e16menuedit2) {/usr/bin/e16menuedit2} <>
+         [exec] (Emacs 22 (text\)) { x-terminal-emulator -T "Emacs 22 (text)" -e /usr/bin/emacs22 -nw} <>
+         [exec] (Emacs 22 (X11\)) {/usr/bin/emacs22} <>
+         [exec] (Gedit) {/usr/bin/gedit} </usr/share/pixmaps/gedit-icon.xpm>
+         [exec] (GVIM) {/usr/bin/vim.gnome -g -f} </usr/share/pixmaps/vim-32.xpm>
+         [exec] (jove) { x-terminal-emulator -T "jove" -e /usr/bin/jove} <>
+         [exec] (Kate) {/usr/bin/kate} <>
+         [exec] (KDE SysV-Init Editor) {/usr/bin/ksysv} <>
+         [exec] (KDE Task Scheduler) {/usr/bin/kcron} <>
+         [exec] (KEdit) {/usr/bin/kedit} <>
+         [exec] (KHexEdit) {/usr/bin/khexedit} <>
+         [exec] (Klipper) {/usr/bin/klipper} <>
+         [exec] (Kommander Editor) {/usr/bin/kmdr-editor} <>
+         [exec] (Kregexpeditor) {/usr/bin/kregexpeditor} <>
+         [exec] (KWrite) {/usr/bin/kwrite} <>
+         [exec] (Zile) { x-terminal-emulator -T "Zile" -e /usr/bin/zile} <>
+      [end]
+      [submenu] (Education) {}
+         [exec] (KBruch) {/usr/bin/kbruch} </usr/share/pixmaps/kbruch.xpm>
+         [exec] (KEduca) {/usr/bin/keduca} </usr/share/pixmaps/keduca.xpm>
+         [exec] (KEduca-Editor) {/usr/bin/keducabuilder} </usr/share/pixmaps/keduca.xpm>
+         [exec] (KGeography) {/usr/bin/kgeography} </usr/share/pixmaps/kgeography.xpm>
+         [exec] (Kiten) {/usr/bin/kiten} </usr/share/pixmaps/kiten.xpm>
+         [exec] (KLatin) {/usr/bin/klatin} </usr/share/pixmaps/klatin.xpm>
+         [exec] (KLettres) {/usr/bin/klettres} </usr/share/pixmaps/klettres.xpm>
+         [exec] (KPercentage) {/usr/bin/kpercentage} </usr/share/pixmaps/kpercentage.xpm>
+         [exec] (KTouch) {/usr/bin/ktouch} </usr/share/pixmaps/ktouch.xpm>
+         [exec] (KTurtle) {/usr/bin/kturtle} </usr/share/pixmaps/kturtle.xpm>
+         [exec] (Kverbos) {/usr/bin/kverbos} </usr/share/pixmaps/kverbos.xpm>
+         [exec] (KVocTrain) {/usr/bin/kvoctrain} </usr/share/pixmaps/kvoctrain.xpm>
+         [exec] (KWordQuiz) {/usr/bin/kwordquiz} </usr/share/pixmaps/kwordquiz.xpm>
+      [end]
+      [submenu] (File Management) {}
+         [exec] (Ark) {/usr/bin/ark} <>
+         [exec] (Baobab) {/usr/bin/baobab} </usr/share/pixmaps/baobab.xpm>
+         [exec] (File-Roller) {/usr/bin/file-roller} </usr/share/pixmaps/file-roller.xpm>
+         [exec] (GNOME Search Tool) {/usr/bin/gnome-search-tool} </usr/share/pixmaps/gsearchtool.xpm>
+         [exec] (Konqueror) {/usr/bin/konqueror --profile filemanagement} <>
+         [exec] (mc) { x-terminal-emulator -T "mc" -e /usr/bin/mc} </usr/share/pixmaps/mc.xpm>
+         [exec] (Nautilus) {/usr/bin/nautilus} </usr/share/pixmaps/nautilus.xpm>
+         [exec] (Thunar) {/usr/bin/thunar} <>
+         [exec] (Xfdesktop) {xfdesktop} <>
+      [end]
+      [submenu] (Graphics) {}
+         [exec] (GNOME Screenshot Tool) {/usr/bin/gnome-panel-screenshot} <>
+         [exec] (ImageMagick) {/usr/bin/display logo:} <>
+         [exec] (KColorChooser) {/usr/bin/kcolorchooser} <>
+         [exec] (KColorEdit) {/usr/bin/kcoloredit} <>
+         [exec] (KIconEdit) {/usr/bin/kiconedit} <>
+         [exec] (KolourPaint) {/usr/bin/kolourpaint} <>
+         [exec] (Kooka) {/usr/bin/kooka} <>
+         [exec] (KPovModeler) {/usr/bin/kpovmodeler} <>
+         [exec] (KSnapshot) {/usr/bin/ksnapshot} <>
+         [exec] (OpenOffice.org Draw) {/usr/bin/oodraw} </usr/share/icons/hicolor/32x32/apps/openofficeorg3-draw.xpm>
+         [exec] (X Window Snapshot) {xwd | xwud} <>
+      [end]
+      [submenu] (Mobile Devices) {}
+         [exec] (Kandy) {/usr/bin/kandy} <>
+         [exec] (KPalmDOC) {/usr/bin/kpalmdoc} <>
+         [exec] (KPilot) {/usr/bin/kpilot} <>
+      [end]
+      [submenu] (Network) {}
+         [submenu] (Communication) {}
+            [exec] (EGroupware Setup Wizard) {/usr/bin/egroupwarewizard} <>
+            [exec] (Ekiga) {/usr/bin/ekiga} </usr/share/pixmaps/ekiga.xpm>
+            [exec] (Evolution) {/usr/bin/evolution} </usr/share/pixmaps/evolution.xpm>
+            [exec] (heirloom-mailx) { x-terminal-emulator -T "heirloom-mailx" -e /usr/bin/heirloom-mailx} <>
+            [exec] (Icedove Mail) {icedove} </usr/share/pixmaps/icedove.png>
+            [exec] (KDE Groupware Wizard) {/usr/bin/groupwarewizard} <>
+            [exec] (KDict) {/usr/bin/kdict} <>
+            [exec] (KMail) {/usr/bin/kmail} <>
+            [exec] (KNode) {/usr/bin/knode} <>
+            [exec] (KOLab Setup Wizard) {/usr/bin/kolabwizard} <>
+            [exec] (Kopete) {/usr/bin/kopete} <>
+            [exec] (KPPP) {/usr/bin/kppp} <>
+            [exec] (KPPP - Logview) {/usr/bin/kppplogview} <>
+            [exec] (Krdc) {/usr/bin/krdc} <>
+            [exec] (Krfb) {/usr/bin/krfb} <>
+            [exec] (KSig) {/usr/bin/ksig} </usr/share/pixmaps/ksig.xpm>
+            [exec] (KSirc) {/usr/bin/ksirc} <>
+            [exec] (MS Exchange Setup Wizard) {/usr/bin/exchangewizard} <>
+            [exec] (Novell GroupWise Setup Wizard) {/usr/bin/groupwisewizard} <>
+            [exec] (Openexchange Setup Wizard) {/usr/bin/sloxwizard} <>
+            [exec] (Pidgin) {/usr/bin/pidgin} </usr/share/pixmaps/pidgin-menu.xpm>
+            [exec] (Telnet) { x-terminal-emulator -T "Telnet" -e /usr/bin/telnet} <>
+            [exec] (Terminal Server Client) {/usr/bin/tsclient -f} </usr/share/pixmaps/tsclient.xpm>
+            [exec] (Xbiff) {xbiff} <>
+         [end]
+         [submenu] (File Transfer) {}
+            [exec] (KGet) {/usr/bin/kget} <>
+            [exec] (Transmission BitTorrent Client) {/usr/bin/transmission} </usr/share/pixmaps/transmission.xpm>
+         [end]
+         [submenu] (Monitoring) {}
+            [exec] (KWifiManager) {/usr/bin/kwifimanager} <>
+            [exec] (Wireshark) {/usr/bin/wireshark} </usr/share/pixmaps/wsicon32.xpm>
+         [end]
+         [exec] (ncftp) { x-terminal-emulator -T "ncftp" -e /usr/bin/ncftp3} <>
+         [submenu] (Web Browsing) {}
+            [exec] (Epiphany web browser (Gecko\)) {/usr/bin/epiphany-gecko} <>
+            [exec] (Google Chrome) {/opt/google/chrome/google-chrome} </opt/google/chrome/product_logo_32.xpm>
+            [exec] (Iceweasel) {iceweasel} </usr/share/pixmaps/iceweasel.xpm>
+            [exec] (Konqueror) {/usr/bin/konqueror --profile webbrowsing} <>
+            [exec] (Lynx-cur) { x-terminal-emulator -T "Lynx-cur" -e lynx} <>
+         [end]
+         [submenu] (Web News) {}
+            [exec] (aKregator) {/usr/bin/akregator} <>
+            [exec] (KNewsTicker) {/usr/bin/appletproxy knewsticker.desktop} <>
+            [exec] (KOrn) {/usr/bin/korn} <>
+         [end]
+      [end]
+      [submenu] (Office) {}
+         [exec] (Iceowl) {/usr/bin/iceowl} </usr/share/pixmaps/iceowl.xpm>
+         [exec] (OpenOffice.org Calc) {/usr/bin/oocalc} </usr/share/icons/hicolor/32x32/apps/openofficeorg3-calc.xpm>
+         [exec] (OpenOffice.org Impress) {/usr/bin/ooimpress} </usr/share/icons/hicolor/32x32/apps/openofficeorg3-impress.xpm>
+         [exec] (OpenOffice.org Writer) {/usr/bin/oowriter} </usr/share/icons/hicolor/32x32/apps/openofficeorg3-writer.xpm>
+      [end]
+      [submenu] (Programming) {}
+         [exec] (cbrowser) {/usr/bin/cbrowser} <>
+         [exec] (gcvs) {/usr/bin/gcvs} </usr/share/pixmaps/gcvs-32x32.xpm>
+         [exec] (KXSLDbg) {/usr/bin/kxsldbg} <>
+         [exec] (Meld) {/usr/bin/meld} <>
+         [exec] (Sun Java 6 Web Start) {/usr/lib/jvm/java-6-sun-1.6.0.22/bin/javaws -viewer} </usr/share/pixmaps/sun-java6.xpm>
+         [exec] (Tclsh8.4) { x-terminal-emulator -T "Tclsh8.4" -e /usr/bin/tclsh8.4} <>
+         [exec] (Tclsh8.5) { x-terminal-emulator -T "Tclsh8.5" -e /usr/bin/tclsh8.5} <>
+         [exec] (TkCVS) {/usr/bin/tkcvs} </usr/share/pixmaps/tkcvs.xpm>
+         [exec] (TkWish8.4) {x-terminal-emulator -e /usr/bin/wish8.4} <>
+         [exec] (TkWish8.5) {x-terminal-emulator -e /usr/bin/wish8.5} <>
+      [end]
+      [submenu] (Project Management) {}
+         [exec] (KArm) {/usr/bin/karm} <>
+         [exec] (KTimer) {/usr/bin/ktimer} <>
+      [end]
+      [submenu] (Science) {}
+         [submenu] (Astronomy) {}
+            [exec] (KStars) {/usr/bin/kstars} </usr/share/pixmaps/kstars.xpm>
+         [end]
+         [submenu] (Chemistry) {}
+            [exec] (Kalzium) {/usr/bin/kalzium} </usr/share/pixmaps/kalzium.xpm>
+         [end]
+         [submenu] (Mathematics) {}
+            [exec] (Bc) { x-terminal-emulator -T "Bc" -e /usr/bin/bc} <>
+            [exec] (GCalcTool) {/usr/bin/gcalctool} </usr/share/pixmaps/gcalctool.xpm>
+            [exec] (KCalc) {/usr/bin/kcalc} <>
+            [exec] (Kig) {/usr/bin/kig} </usr/share/pixmaps/kig.xpm>
+            [exec] (KmPlot) {/usr/bin/kmplot} </usr/share/pixmaps/kmplot.xpm>
+            [exec] (OpenOffice.org Math) {/usr/bin/oomath} </usr/share/icons/hicolor/32x32/apps/openofficeorg3-math.xpm>
+            [exec] (Xcalc) {xcalc} <>
+         [end]
+      [end]
+      [submenu] (Shells) {}
+         [exec] (Bash) { x-terminal-emulator -T "Bash" -e /bin/bash --login} <>
+         [exec] (Dash) { x-terminal-emulator -T "Dash" -e /bin/dash -i} <>
+         [exec] (Python (v2.5\)) { x-terminal-emulator -T "Python (v2.5)" -e /usr/bin/python2.5} </usr/share/pixmaps/python2.5.xpm>
+         [exec] (Sh) { x-terminal-emulator -T "Sh" -e /bin/sh --login} <>
+         [exec] (Zsh) { x-terminal-emulator -T "Zsh" -e /bin/zsh4} <>
+      [end]
+      [submenu] (Sound) {}
+         [exec] (aRts Builder) {/usr/bin/artsbuilder} </usr/share/pixmaps/artsbuilder.xpm>
+         [exec] (aRts Control) {/usr/bin/artscontrol} </usr/share/pixmaps/artscontrol.xpm>
+         [exec] (gmix (Gnome 2.0 Mixer\)) {/usr/bin/gnome-volume-control} </usr/share/pixmaps/gnome-mixer.xpm>
+         [exec] (grecord (GNOME 2.0 Recorder\)) {/usr/bin/gnome-sound-recorder} </usr/share/pixmaps/gnome-grecord.xpm>
+         [exec] (JuK) {/usr/bin/juk} <>
+         [exec] (KAudioCreator) {/usr/bin/kaudiocreator} <>
+         [exec] (KMid) {/usr/bin/kmid} <>
+         [exec] (KMix) {/usr/bin/kmix} <>
+         [exec] (KRec) {/usr/bin/krec} <>
+         [exec] (KsCD) {/usr/bin/kscd} <>
+         [exec] (Noatun) {/usr/bin/noatun} <>
+         [exec] (Rhythmbox) {/usr/bin/rhythmbox} </usr/share/pixmaps/rhythmbox-small.xpm>
+         [exec] (Sound Juicer) {/usr/bin/sound-juicer} </usr/share/pixmaps/sound-juicer.xpm>
+         [exec] (vumeter (Gnome 2.0 Volume Meter\)) {/usr/bin/vumeter} </usr/share/pixmaps/gnome-vumeter.xpm>
+      [end]
+      [submenu] (System) {}
+         [submenu] (Administration) {}
+            [exec] (alsaconf) { x-terminal-emulator -T "alsaconf" -e su-to-root -p root -c /usr/sbin/alsaconf} <>
+            [exec] (Aptitude) { x-terminal-emulator -T "Aptitude" -e /usr/bin/aptitude} <>
+            [exec] (Editres) {editres} <>
+            [exec] (GDM flexiserver) {gdmflexiserver} </usr/share/pixmaps/gdm.xpm>
+            [exec] (GDM flexiserver in Xnest) {gdmflexiserver -n} </usr/share/pixmaps/gdm.xpm>
+            [exec] (GDM Photo Setup) {gdmphotosetup} </usr/share/pixmaps/gdm.xpm>
+            [exec] (GDM Setup) {su-to-root -X -p root -c /usr/sbin/gdmsetup} </usr/share/pixmaps/gdm.xpm>
+            [exec] (Gnome Control Center) {/usr/bin/gnome-control-center} </usr/share/pixmaps/control-center2.xpm>
+            [exec] (kAppfinder) {/usr/bin/kappfinder} <>
+            [exec] (KControl) {/usr/bin/kcontrol} <>
+            [exec] (KDE User Manager) {/usr/bin/kuser} <>
+            [exec] (KDebugDialog) {/usr/bin/kdebugdialog} <>
+            [exec] (kdepasswd) {/usr/bin/kdepasswd} <>
+            [exec] (KDEPrintFax) {/usr/bin/kdeprintfax} <>
+            [exec] (KEditBookmarks) {/usr/bin/keditbookmarks} <>
+            [exec] (KFind) {/usr/bin/kfind} <>
+            [exec] (Kicker) {/usr/bin/kicker} </usr/share/pixmaps/kicker.xpm>
+            [exec] (KInfoCenter) {/usr/bin/kinfocenter} <>
+            [exec] (KMenuEdit) {/usr/bin/kmenuedit} <>
+            [exec] (KPager) {/usr/bin/kpager} <>
+            [exec] (KPersonalizer) {/usr/bin/kpersonalizer} <>
+            [exec] (KPrinter) {/usr/bin/kprinter} <>
+            [exec] (Network Admin) {/usr/bin/network-admin} </usr/share/gnome-system-tools/pixmaps/network.xpm>
+            [exec] (reportbug) { x-terminal-emulator -T "reportbug" -e /usr/bin/reportbug --exit-prompt} <>
+            [exec] (Services Admin) {/usr/bin/services-admin} </usr/share/gnome-system-tools/pixmaps/services.xpm>
+            [exec] (Shares Admin) {/usr/bin/shares-admin} </usr/share/gnome-system-tools/pixmaps/shares.xpm>
+            [exec] (Sun Java 6 Plugin Control Panel) {/usr/lib/jvm/java-6-sun-1.6.0.22/bin/ControlPanel} </usr/share/pixmaps/sun-java6.xpm>
+            [exec] (TeXconfig) { x-terminal-emulator -T "TeXconfig" -e /usr/bin/texconfig} <>
+            [exec] (Time Admin) {/usr/bin/time-admin} </usr/share/gnome-system-tools/pixmaps/time.xpm>
+            [exec] (User accounts Admin) {/usr/bin/users-admin} </usr/share/gnome-system-tools/pixmaps/users.xpm>
+            [exec] (WMakerConf) {/usr/bin/wmakerconf} <>
+            [exec] (Xclipboard) {xclipboard} <>
+            [exec] (Xfce-setting-show) {xfce-setting-show} </usr/share/pixmaps/xfce4-mcs-manager.xpm>
+            [exec] (Xfontsel) {xfontsel} <>
+            [exec] (XFrun4) {xfrun4} <>
+            [exec] (Xkill) {xkill} <>
+            [exec] (Xrefresh) {xrefresh} <>
+         [end]
+         [exec] (GNOME Network Tool) {/usr/bin/gnome-nettool} </usr/share/pixmaps/gnome-nettool.xpm>
+         [exec] (GNOME system monitor) {/usr/bin/gnome-system-monitor} <>
+         [submenu] (Hardware) {}
+            [exec] (GNOME Floppy Formatter) {/usr/bin/gfloppy} </usr/share/pixmaps/gfloppy.xpm>
+            [exec] (KDat) {/usr/bin/kdat} <>
+            [exec] (KFloppy) {/usr/bin/kfloppy} <>
+            [exec] (Xvidtune) {xvidtune} <>
+         [end]
+         [submenu] (Monitoring) {}
+            [exec] (FSView) {/usr/bin/fsview} </usr/share/pixmaps/fsview.xpm>
+            [exec] (GNOME Log Viewer) {/usr/bin/gnome-system-log} </usr/share/pixmaps/gnome-system-log.xpm>
+            [exec] (KDCOP) {/usr/bin/kdcop} <>
+            [exec] (KDE System Guard) {/usr/bin/ksysguard} <>
+            [exec] (KDE System Guard - Process Table) {/usr/bin/kpm} <>
+            [exec] (KDiskFree) {/usr/bin/kdf} <>
+            [exec] (KJobViewer) {/usr/bin/kjobviewer --show --all} <>
+            [exec] (kwikdisk) {/usr/bin/kwikdisk} <>
+            [exec] (Pstree) { x-terminal-emulator -T "Pstree" -e /usr/bin/pstree.x11} </usr/share/pixmaps/pstree16.xpm>
+            [exec] (Top) { x-terminal-emulator -T "Top" -e /usr/bin/top} <>
+            [exec] (Xconsole) {xconsole -file /dev/xconsole} <>
+            [exec] (Xev) {x-terminal-emulator -e xev} <>
+            [exec] (Xload) {xload} <>
+         [end]
+         [submenu] (Package Management) {}
+            [exec] (KDE Package Manager) {/usr/bin/kpackage} <>
+            [exec] (Synaptic Package Manager) {/usr/bin/su-to-root -X -c /usr/sbin/synaptic} </usr/share/synaptic/pixmaps/synaptic_32x32.xpm>
+         [end]
+         [submenu] (Security) {}
+            [exec] (Seahorse) {/usr/bin/seahorse} </usr/share/pixmaps/seahorse.xpm>
+            [exec] (Sun Java 6 Policy Tool) {/usr/lib/jvm/java-6-sun-1.6.0.22/bin/policytool} </usr/share/pixmaps/sun-java6.xpm>
+         [end]
+      [end]
+      [submenu] (Terminal Emulators) {}
+         [exec] (Aterm) {/usr/bin/aterm} <>
+         [exec] (Gnome Terminal) {/usr/bin/gnome-terminal} </usr/share/pixmaps/gnome-terminal.xpm>
+         [exec] (Konsole) {/usr/bin/konsole} <>
+         [exec] (pterm) {/usr/bin/pterm} </usr/share/pixmaps/pterm.xpm>
+         [exec] (Rxvt-Unicode) {urxvt -e bash} </usr/share/pixmaps/urxvt.xpm>
+         [exec] (Rxvt-Unicode (Black,Xft\)) {urxvt -fn "xft:Courier New" -rv} </usr/share/pixmaps/urxvt.xpm>
+         [exec] (Wterm) {/usr/bin/wterm} <>
+         [exec] (X-Terminal as root (GKsu\)) {/usr/bin/gksu -u root /usr/bin/x-terminal-emulator} </usr/share/pixmaps/gksu-debian.xpm>
+         [exec] (Xfterm4) { x-terminal-emulator -T "Xfterm4" -e xfterm4} <>
+         [exec] (XTerm) {xterm} </usr/share/pixmaps/xterm-color_32x32.xpm>
+         [exec] (XTerm (Unicode\)) {uxterm} </usr/share/pixmaps/xterm-color_32x32.xpm>
+         [exec] (YaKuake) {/usr/bin/yakuake} <>
+      [end]
+      [submenu] (Text) {}
+         [exec] (Character map) {/usr/bin/gucharmap} <>
+         [exec] (Fortune) {sh -c 'while /usr/games/fortune | col -x | xmessage -center -buttons OK:1,Another:0 -default OK -file - ; do :; done'} <>
+         [exec] (GNOME Dictionary) {/usr/bin/gnome-dictionary} </usr/share/pixmaps/gdict.xpm>
+         [exec] (KCharSelect) {/usr/bin/kcharselect} <>
+      [end]
+      [submenu] (Tools) {}
+         [exec] (fbpager) {/usr/bin/fbpager} <>
+         [exec] (fluxconf) {/usr/bin/fluxconf} <>
+         [exec] (fluxkeys) {/usr/bin/fluxkeys} <>
+         [exec] (fluxmenu) {/usr/bin/fluxmenu} <>
+         [exec] (nvidia-settings) {/usr/bin/nvidia-settings} <>
+      [end]
+      [submenu] (Video) {}
+         [exec] (totem (GStreamer\)) {/usr/bin/totem-gstreamer} </usr/share/pixmaps/totem.xpm>
+      [end]
+      [submenu] (Viewers) {}
+         [exec] (Evince) {/usr/bin/evince} </usr/share/pixmaps/evince.xpm>
+         [exec] (Eye of GNOME) {/usr/bin/eog} </usr/share/pixmaps/gnome-eog.xpm>
+         [exec] (KDVI) {/usr/bin/kdvi} <>
+         [exec] (KFax) {/usr/bin/kfax} <>
+         [exec] (KFaxView) {/usr/bin/kfaxview} <>
+         [exec] (KGhostView) {/usr/bin/kghostview} <>
+         [exec] (KPDF) {/usr/bin/kpdf} <>
+         [exec] (KRuler) {/usr/bin/kruler} <>
+         [exec] (KTnef) {/usr/bin/ktnef} <>
+         [exec] (Kuickshow) {/usr/bin/kuickshow} <>
+         [exec] (KView) {/usr/bin/kview} <>
+         [exec] (Xditview) {xditview} <>
+         [exec] (XDvi) {/usr/bin/xdvi} <>
+      [end]
+      [submenu] (Web Development) {}
+         [exec] (KImageMapEditor) {/usr/bin/kimagemapeditor} </usr/share/pixmaps/kimagemapeditor.xpm>
+         [exec] (KLinkStatus) {/usr/bin/klinkstatus} </usr/share/pixmaps/klinkstatus.xpm>
+         [exec] (Quanta Plus) {/usr/bin/quanta} </usr/share/pixmaps/quanta.xpm>
+      [end]
+   [end]
+   [submenu] (Screen) {}
+      [restart] (Restart)
+      [exit] (Exit)
+      [submenu] (Locking) {}
+         [exec] (Xflock4) { x-terminal-emulator -T "Xflock4" -e xflock4} <>
+      [end]
+      [submenu] (Saving) {}
+         [exec] (KTux) {/usr/bin/ktux -root} </usr/share/pixmaps/ktux.xpm>
+      [end]
+   [end]
+   [submenu] (Wallpaper) {}
+      [exec] (mabry-mill1.jpg)  {fbsetbg -c ~/.fluxbox/backgrounds/mabry-mill1.jpg}
+      [exec] (rminspring.jpg)  {fbsetbg -c ~/.fluxbox/backgrounds/rminspring.jpg}
+      [exec] (02635_tetonreflection_1920x1080.jpg)  {fbsetbg -c ~/.fluxbox/backgrounds/02635_tetonreflection_1920x1080.jpg}
+      [exec] (Sun-on-the-Snow-landsacape-winter-1920x1080.jpg)  {fbsetbg -c ~/.fluxbox/backgrounds/Sun-on-the-Snow-landsacape-winter-1920x1080.jpg}
+      [exec] (Way-through-the-snowy-woods-wallpaper.jpg)  {fbsetbg -c ~/.fluxbox/backgrounds/Way-through-the-snowy-woods-wallpaper.jpg}
+      [exec] (autumn.jpg)  {fbsetbg -c ~/.fluxbox/backgrounds/autumn.jpg}
+   [end]
+
+   [config] (Configuration)
+   [submenu] (Styles) {}
+      [stylesdir] (/usr/share/fluxbox/styles)
+      [stylesdir] (~/.fluxbox/styles)
+   [end]
+   [workspaces] (Workspaces)
+   [exec] (Lock) { /usr/bin/xscreensaver-command -lock } <>
+   [reconfig] (Reconfigure)
+
+[end]
